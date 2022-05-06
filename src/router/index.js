@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import App from '../App.vue'
+import home from '../pages/home.vue'
 import IconTable from '../components/templates/IconTable.vue'
 
 const routes = [
     {
         path: '/',
-        component: App,
+        component: home,
         meta: {
             title: 'Epic 游戏商城',
         }
